@@ -1,0 +1,25 @@
+{
+    "listeners": [
+        {
+            "address": "0.0.0.0",
+            "port": 8089,
+            "https": false
+        }
+    ],
+    "db_clients": [
+        {
+            "name": "qabuilder",
+            "rdbms": "mysql",
+            "host": "127.0.0.1",
+            "port": 3306,
+            "dbname": "qabuilder",
+            "user": "qabuilder",
+            "passwd": "qabuilder"
+        }
+    ],
+    "app": {
+        "threads_num": 0,
+        "enable_session": true,
+        "session_timeout": 86400
+    }
+}
