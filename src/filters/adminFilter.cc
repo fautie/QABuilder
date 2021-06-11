@@ -10,7 +10,6 @@ using namespace drogon;
 
 void adminFilter::doFilter(const HttpRequestPtr &req, FilterCallback &&fcb, FilterChainCallback &&fccb)
 {
-    // Edit your logic here
     if (req->session() && ((*(req->session()->get<std::shared_ptr<Json::Value>>("loginInfo")))["priv"].asInt() == 1))
     {
         // Passed

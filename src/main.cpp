@@ -1,10 +1,5 @@
-#include "openssl/evp.h"
-#include "openssl/sha.h"
-
-#include <cstring>
 #include <drogon/HttpAppFramework.h>
 #include <iostream>
-#include <texcaller.h>
 #include <unistd.h>
 int main(int argc, char **argv)
 {

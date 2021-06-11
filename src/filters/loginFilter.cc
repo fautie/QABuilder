@@ -12,7 +12,6 @@ void loginFilter::doFilter(const HttpRequestPtr &req,
                          FilterCallback &&fcb,
                          FilterChainCallback &&fccb)
 {
-    //Edit your logic here
     if (req->session()&&req->session()->find("loginInfo"))
     {
         //Passed
